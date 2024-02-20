@@ -63,6 +63,10 @@ body {
     margin: 0;
 }
 
+.oval-container p {
+    opacity: 50%;
+}
+
 .end-left-container{
    margin: 28px auto 46px auto;
     width: 240px;
