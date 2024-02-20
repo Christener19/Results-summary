@@ -1,3 +1,4 @@
+/*--- Selecting multiple----*/
 body {
     margin: 10px auto;
     padding: 0;
@@ -8,6 +9,7 @@ body {
     font-size: 18px;
 }
 
+/*-----Main with left side----*/
 .main-container {
     margin: 0 auto;
     display: flex;
@@ -77,6 +79,19 @@ body {
 /* ----------Right side--------*/
 .right-container{
     width: 368px;
+    height: 512px;
+    margin: 0 auto;
+  
+}
+
+button {
+    border-radius: 128px;
+    height: 56px;
+    width: 288px;
+    background-color: hsl(224, 30%, 27%);
+    color: white;
+    margin: 0 auto;
+    font-size: 18px;
 }
 
 .attribution { font-size: 11px;
