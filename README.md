@@ -7,7 +7,7 @@
 
 **This is my desktop solution:**
 
-<img src="../results-summary-component-main/assets/readme-images/desktop1.png" alt="Project desktop complete">
+<img src="./assets/readme-images/desktop1.png" alt="Project desktop complete">
 
 **This is my mobile solution:**
 
