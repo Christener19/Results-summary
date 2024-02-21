@@ -1,6 +1,6 @@
 # Completed the Results summary from Frontend Mentor
 
-**This is what the challange given:**
+**This was the challange given: - We were to recreate their design**
 
 <img src="their-example.png" alt="Their example">
 
@@ -10,3 +10,5 @@
 <img src="desktop1.png" alt="Project desktop complete">
 
 **This is my mobile solution:**
+
+<img src="mobile.png" alt="Project mobile complete">
