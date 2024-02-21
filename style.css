@@ -34,6 +34,7 @@ p {
     font-weight: bold;
     margin-top: 45px;
     margin-bottom: 41px;
+    opacity: 0.6;
 }
 
 #score {
@@ -75,6 +76,9 @@ p {
     width: 240px;
     height: 134px;
 }
+.end-left-container > p{
+     opacity: 0.6;
+ }
 
 
 /* ----------Right side--------*/
@@ -148,11 +152,12 @@ button {
     border-radius: 128px;
     height: 56px;
     width: 288px;
-    background-color: hsl(224, 30%, 27%);
+    background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%) );
     color: white;
     margin: 0 auto;
     font-size: 18px;
     margin: 21px auto 46px auto;
+    border: none;
 }
 
 .attribution { 
