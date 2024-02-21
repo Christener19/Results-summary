@@ -5,9 +5,10 @@ body {
     font-family: "Hanken Grotesk", sans-serif;
 }
 
-.p {
+p {
     font-size: 18px;
 }
+
 
 /*-----Main with left side----*/
 .main-container {
@@ -77,13 +78,69 @@ body {
 
 
 /* ----------Right side--------*/
+#summary-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 38px;
+}
 .right-container{
     width: 368px;
     height: 512px;
-    margin: 0 auto;
-  
+    padding-left: 40px;
+    margin: 0;
 }
-
+#red{
+   color: #F55; 
+}
+#yellow{
+    color: #FFB21E;
+}
+#green{
+   color:#00BB8F;
+}
+#blue{
+    color:  #1125D6;
+}
+.result-container {
+    height: 288px;
+    width: 288px;
+}
+#result-1{
+    background-color: rgba(255, 85, 85, 0.2);
+}
+#result-2{
+    background-color: rgba(255, 178, 30, 0.2);
+}
+#result-3{
+    background-color: rgba(0,187,143,0.3);
+}
+#result-4{
+    background-color: rgba(17,37,214,0.2);
+}
+.result-item {
+    height: 56px;
+    width: 288px;
+    margin-top: 16px;
+    padding: 0;
+    border-radius: 12px;
+    font-weight: bold;
+    display: flex;
+    align-items: center; /* this makes sure all the items within this div align on the same line vertcially */
+}
+.result-item img {
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 16px 0 12px;
+}
+.end-result-item{
+color: black;
+}
+.end-end-result{
+    opacity: 0.6;
+}
 button {
     border-radius: 128px;
     height: 56px;
@@ -92,6 +149,7 @@ button {
     color: white;
     margin: 0 auto;
     font-size: 18px;
+    margin-top: 63px;
 }
 
 .attribution { font-size: 11px;
