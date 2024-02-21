@@ -1,6 +1,6 @@
 /*--- Selecting multiple----*/
 
-@media (min-width: 441px) {
+@media (min-width: 541px) {
 body {
     margin: 10px auto;
     padding: 0;
@@ -156,7 +156,6 @@ button {
     width: 288px;
     background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%) );
     color: white;
-    margin: 0 auto;
     font-size: 18px;
     margin: 21px auto 46px auto;
     border: none;
@@ -165,14 +164,14 @@ button {
 .attribution { 
     font-size: 11px;
     text-align: center; 
-    margin-top: 50px;
+    margin: 5px auto 0 auto;
 }
 .attribution a { color: hsl(228, 45%, 44%); }
 
 }
 
-
-@media (min-width: 140px) and (max-width: 440px) {
+/* --------MOBILE VERSION-------*/
+@media (min-width: 140px) and (max-width: 540px) {
 
     body{
         width: auto;
@@ -230,4 +229,88 @@ button {
         padding: 0 56px 40px 56px;
         margin: 0;
     }
-}
+
+
+    /* Bottom Half */
+      #summary-title {
+      font-size: 18px;
+      margin: 24px auto 24px 32px; 
+    }
+    #red{
+        color: #F55; 
+     }
+     #yellow{
+         color: #FFB21E;
+     }
+     #green{
+        color:#00BB8F;
+     }
+     #blue{
+         color:  #1125D6;
+     }
+     .result-container {
+         height: 288px;
+         width: auto;
+         margin: auto;
+     }
+     #result-1{
+         background-color: rgba(255, 85, 85, 0.2);
+     }
+     #result-2{
+         background-color: rgba(255, 178, 30, 0.2);
+     }
+     #result-3{
+         background-color: rgba(0,187,143,0.3);
+     }
+     #result-4{
+         background-color: rgba(17,37,214,0.2);
+     }
+     .result-item {
+        width: auto;
+        height: 56px;
+        margin: 0 30px 0 30px;
+        border-radius: 12px;
+     }
+     .result-item > img {
+        float: inline-start;
+        width: 20px;
+        height: 20px;
+        padding: 18px 7px 0 5px;
+        margin: 0;
+    }
+    .result-item > p {
+        font-weight: bold;
+        display: flex;
+        padding: 15px 5px 0 0;
+        align-items: center;
+    }
+    .end-result-item{
+        color: black;
+        margin-left: auto;
+    }
+    .end-end-result{
+        opacity: 0.6;
+    }
+
+    button {
+        border-radius: 128px;
+        height: 56px;
+        width: 288px;
+        background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%) );
+        color: white;
+        font-size: 18px;
+        margin: 21px auto 46px auto;
+        border: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .attribution { 
+        font-size: 12px;
+        text-align: center; 
+        margin: 5px auto 0 auto;
+    }
+    .attribution a { color: hsl(228, 45%, 44%); }
+    
+    }
