@@ -154,7 +154,7 @@ button {
     border-radius: 128px;
     height: 56px;
     width: 288px;
-    background-color: #4D21C9;
+    background: var(--Dark-Navy, #303B59);
     color: white;
     font-size: 18px;
     margin: 21px auto 46px auto;
@@ -291,7 +291,7 @@ button {
         border-radius: 128px;
         height: 56px;
         width: 80vw;
-        background-color: #4D21C9;
+        background: var(--Dark-Navy, #303B59);
         color: white;
         font-size: 18px;
         margin: 46px auto;
