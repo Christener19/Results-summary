@@ -145,7 +145,7 @@ p {
 .result-item img {
     width: 20px;
     height: 20px;
-    padding-right: 5px;
+    padding: 0 5px;
     margin: 0;
 }
 .end-result-item{
