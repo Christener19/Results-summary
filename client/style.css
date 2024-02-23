@@ -1,6 +1,3 @@
-/*--- Selecting multiple----*/
-
-
 @media (min-width: 541px) {
 /*-----Main with left side----*/
 body {
@@ -20,7 +17,7 @@ p {
 }
 
 .main-container {
-    margin: 0 auto 0 auto;
+    margin: 0 auto;
     height: 512px;
     width: 736px;
     display: flex;
@@ -38,22 +35,15 @@ p {
 
 #left-main-heading {
     font-size: 24px;
-    font-weight: bold;
     margin-top: 45px;
     margin-bottom: 41px;
     opacity: 0.6;
 }
-
 #score {
-    font-weight: bolder;
     font-size: 72px;
-}
-#of-total-score {
-    font-weight: bold;
 }
 #great {
     font-size: 32px;
-    font-weight: bold;
     margin: 0;
     padding: 0;
 }
@@ -155,11 +145,14 @@ p {
 .end-end-result{
     opacity: 0.6;
 }
+button:hover {
+    background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%) );
+}
 button {
     border-radius: 128px;
     height: 56px;
     width: 288px;
-    background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%) );
+    background-color: #4D21C9;
     color: white;
     font-size: 18px;
     margin: 21px auto 46px auto;
@@ -172,8 +165,8 @@ button {
     margin: 25px auto 0 auto;
 }
 .attribution a { color: hsl(228, 45%, 44%); }
-
 }
+
 /* --------MOBILE VERSION-------*/
 @media (min-width: 140px) and (max-width: 540px) {
     body, #score, .left-container, #left-main-heading, #of-total-score, #great, .end-left-container > p {
@@ -289,11 +282,14 @@ button {
     .end-end-result{
         opacity: 0.6;
     }
+    button:hover{
+        background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%) );
+    }
     button {
         border-radius: 128px;
         height: 56px;
         width: 80vw;
-        background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%) );
+        background-color: #4D21C9;
         color: white;
         font-size: 18px;
         margin: 46px auto;
